@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Laundryin"
+        android:textColor="@color/blue"
+        android:textSize="32dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="32dp"
+        android:elevation="2dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:elevation="1dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/box_white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="32dp"
+        android:elevation="1dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="48dp"
+        android:elevation="1dp"
+        android:inputType="textPassword"
+        android:background="@drawable/box_white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginBottom="48dp"
+        android:text="MASUK"
+        android:textColor="@color/white"
+        android:background="@drawable/blue_button"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun?"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buat akun"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:layout_marginLeft="1dp"/>
+    </LinearLayout>
+</LinearLayout>
